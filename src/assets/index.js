@@ -1,8 +1,8 @@
-import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+import logo from "/logo/logo.png";
+import backend from "/profession/backed-dev.png";
+import creator from "/profession/content-creator.png";
+import ui from "/profession/ui-dev.png";
+import fronted from "/profession/fronted-dev.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -34,8 +34,8 @@ export {
   logo,
   backend,
   creator,
-  mobile,
-  web,
+  ui,
+  fronted,
   github,
   menu,
   close,

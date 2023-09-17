@@ -1,8 +1,8 @@
 import {
-  mobile,
+  ui,
   backend,
   creator,
-  web,
+  fronted,
   javascript,
   typescript,
   html,
@@ -15,10 +15,6 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
@@ -42,12 +38,12 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Fronted Developer",
+    icon: fronted,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "UI Developer",
+    icon: ui,
   },
   {
     title: "Backend Developer",
@@ -116,55 +112,28 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Future Ready Talent Intern",
+    company_name: "Microsoft",
+    icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/1024px-Microsoft_logo.svg.png',
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2022 - April 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a dynamic website using React.js with seamless API integration.",
+      "Hosted the website on Microsoft Azure using the Web App Hosting service.",
+      "Contributed to the enhancement of web development skills by working in a virtual internship environment.",
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
+    company_name: "Zignuts Technolab",
+    icon: 'https://develop4u.co/media/reviews/photos/original/f5/47/4b/Zignuts-Logo-85-1537881959.png',
+    iconBg: "#fff",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Continuously enhancing my front-end development skills and learning new techniques.",
+      "Gaining valuable experience in web development with a focus on delivering high-quality solutions.",
+      "Adapting to new challenges daily, contributing to my growth as a web developer.",
+      "Benefiting from a dynamic environment that encourages skill sharpening and innovation.",
     ],
   },
 ];
